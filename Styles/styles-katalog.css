@@ -1,0 +1,92 @@
+/*https://www.w3.org/TR/CSS22/propidx.html*/
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("pt-sans_caption-regular.woff2") format("woff2");
+    font-display: swap;
+  }
+  .page-header {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20x;
+    line-height: 26px;
+    font-weight: 700;
+    color: #242424;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .page-header.navigation {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+    background-color: #FFFFFF;
+    text-decoration: none;
+  }
+  footer{
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+    background-color: #FFFFFF;
+    text-decoration: none;
+  }
+  .button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    /*color: #ffffff;
+    background-color: #000000;*/
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  a {
+    color:#000000
+  }
+  li {
+    list-style: none;
+  }
+    
+  .navigation-link {
+    font-family: "PT Sans", sans-serif; 
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000 inherit;
+    /*background-color: #000000;*/
+    text-decoration: none;
+    text-transform: uppercase; 
+  }
+  .inner-selection-options {
+    background-image: url("../Photo/background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    background-position: 0%;
+    /*background-size:contain;
+    background-origin: padding-box;*/
+  }
+  .inner-selection-options a {
+    color: #FFFFFF;
+  }
+  

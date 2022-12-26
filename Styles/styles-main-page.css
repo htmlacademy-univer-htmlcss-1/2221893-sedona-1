@@ -1,0 +1,209 @@
+/*https://www.w3.org/TR/CSS22/propidx.html*/
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("pt-sans_caption-regular.woff2") format("woff2");
+    font-display: swap;
+  }
+  a {
+    color:#000000
+  }
+  .button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    /*color: #ffffff;
+    background-color: #000000;*/
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .page-header {
+    color: #000000;
+    background-color: #FFFFFF;
+  }
+  body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+    background-color: #FFFFFF;
+    text-decoration: none;
+  }
+  li{
+    list-style: none;
+  }
+  li.reasons-item:nth-child(1), li.reasons-item:nth-child(7) { 
+    background-color: #82B3D3;
+    color: #FFFFFF;
+   }
+  li.reasons-item:nth-child(3),li.reasons-item:nth-child(5),li.reasons-item:nth-child(8),li.reasons-item:nth-child(10){
+   background-color: rgba(131, 179, 211, 0.12);
+  }
+  /*NEW*/
+  .introduction h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+  
+    text-transform: uppercase;
+  }
+  .introduction p {
+    font-size: 22px;
+    line-height: 26px;
+  
+    color: #333333;
+  }
+  
+  .reasons-list {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  
+  .reasons-list img + p:nth-child(2),
+  .reasons-list p:first-child {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  
+    text-transform: uppercase;
+  }
+  
+  
+  .interest p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .interest h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+  
+    text-transform: uppercase;
+  }
+  .interest .interest-button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+  
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .interest .interest-button {
+    background: #756157;
+    padding: 10px 40px;
+    border-radius: 4px;
+    border-style: none;
+  }
+  
+  .reasons-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+  }
+  .reasons-item-photo{
+    height: 384px;
+  }
+  .reasons-list .reasons-item {
+    height: 384px;
+    width: 400px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    flex-direction: column;
+  }
+  
+  .reasons-item .text {
+    height: 230px;
+    margin: 92px 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .reasons-list .text p {
+    margin: 0;
+  }
+
+
+  
+  .interest {
+    height: 417px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .interest p {
+    margin: 0;
+  }
+  .interest h2 {
+    margin-top: 91px;
+  }
+  
+  .interest button {
+    margin-bottom: 93px;
+  }
+  
+  .navigation-link {
+    font-family: "PT Sans", sans-serif; 
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000 inherit;
+    /*background-color: #000000;*/
+    text-decoration: none;
+    text-transform: uppercase; 
+  }
+  .navigation-list{
+    display:flex;
+  }
+
+  .with-background-image {
+    background-image: url("../Photo/index-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 485px;
+
+  }
+  .mailing-list {
+    background-image: url("../Photo/background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+   }
+
+   section.with-background-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   }
+   section.introduction {
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  section.introduction h2 {
+      margin: 63px auto auto;
+  }
+  
+  section.introduction p {
+    margin: auto auto 90px;
+    justify-self: flex-end;
+  }
+  

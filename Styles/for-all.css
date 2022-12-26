@@ -1,0 +1,186 @@
+/*
+ul {list-style: none}
+ */
+
+/*  font  */
+
+/* 
+body * {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000000;
+}
+
+.want-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.mailing-list,
+.mailing-list button {
+  color: #ffffff;
+}
+.mailing-list p {
+  font-size: 22px;
+  line-height: 26px;
+}
+.mailing-list p:first-child {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.mailing-list input,
+.mailing-list button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.mailing-list button {
+  text-transform: uppercase;
+}
+
+
+/*  backgrounds */
+/*
+html { background-color: white; }
+
+.want-button {
+  background: #756157;
+  padding: 10px 40px;
+  border-radius: 4px;
+  border-style: none;
+}
+
+section.mailing-list {
+  background-image: url(../images/background.png);
+  width: 1200px;
+  height: 411px;
+}
+
+.mailing-list input {
+  border-style: none;
+  padding: 12px 25px;
+  width: 600px;
+  border-radius: 10px 0 0 10px;
+  margin-right: -5px;
+}
+
+.mailing-list button {
+  background: #82B3D3;
+
+  padding: 12px 25px;
+  border-style: none;
+  border-radius: 0 10px 10px 0;
+}
+*/
+
+
+/*  position  */
+
+html { text-align: center;
+  margin: 0 auto; }
+
+body {
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+}
+
+header.page-header {
+  box-sizing: content-box;
+  height: 65px;
+}
+
+.navigation {
+  width: 1051px;
+}
+.navigation-item{
+  display: inline;
+  display: flex;
+}
+
+header.page-header,
+.navigation,
+ul.navigation-list {
+  display: flex;
+  align-items: center;
+
+  margin: 0 0;
+}
+
+li.navigation-item {
+  margin: 0 10px;
+}
+
+nav.navigation {
+  justify-content: space-between;
+}
+
+ul.navigation-user {
+  justify-content: flex-end;
+}
+
+img.logo {
+  margin-left: 20px;
+}
+
+footer.page-footer {
+  display: flex;
+  align-items: center;
+}
+
+footer.page-footer { justify-content: space-between; }
+
+.page-footer .navigation {
+  padding: 0;
+  margin: 45px 0 35px 70px;
+}
+
+.page-footer .navigation .navigation-item {
+  margin: 0;
+}
+
+.page-footer .phone-number {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.page-footer .sub-logo {
+  margin: 49px 70px 38px 0;
+}
+
+
+.mailing-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mailing-list p:first-child {
+  margin: 94px 0 0;
+}
+
+.mailing-list p {
+  margin-top: 29px;
+}
+
+.mailing-list form {
+  margin: 46px auto 94px;
+  justify-self: flex-end;
+}
